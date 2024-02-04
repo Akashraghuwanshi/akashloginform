@@ -70,7 +70,16 @@ body{
     border:none;
     align-items:center;
 }
-    
+
+@media screen and (max-width: 767px) {
+    .form{
+        margin-left:2rem;
+    width:80vw;
+    }
+    .input {
+        width: 100%;  /* Make input fields take up 100% width on mobile devices */
+    }
+} 
     
 
 
